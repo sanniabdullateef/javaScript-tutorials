@@ -1,5 +1,4 @@
 // function Constructor to create Object from a blueprint
-/*
 var john = {
     name: 'john',
     yearOfBirth: 1990,
@@ -43,7 +42,7 @@ console.log(gbenga.lastName  + ' Gbenga');
 
 
 // Object.create Method and Inheritance
-/*
+
 var personProto = {
     calculateAge : function(){
        console.log(2019 - this.yearOfBirth);
@@ -61,14 +60,13 @@ var jane = Object.create (personProto,{
     yearOfBirth: { value : 1970 },
     job: { value : 'designer' }
 });
-*/
+
 
 
 //Primitives versus Object
 
 //Primitive
 
-/*
 var a = 20;
 var b = a;
 a = 40 ;
@@ -106,11 +104,9 @@ priObjFun (age, obj);
 console.log (age);
 console.log(obj.city);
 
-*/
-
 //Passing function to a function as anrgument
 
-/*var years = [1992, 1980, 1988, 2000, 1978]
+var years = [1992, 1980, 1988, 2000, 1978]
 
 function arrayCalc (arr, fn) {
     var arrayRes = [];
@@ -143,7 +139,6 @@ var heart = arrayCalc(ages, maxHeart);
 console.log (ages);
 console.log(fullAge);
 console.log (heart);
-*/
 
 function interviewQuestion(job) {
     if (job === 'designer') {
